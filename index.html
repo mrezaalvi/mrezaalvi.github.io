@@ -10,9 +10,8 @@
     <h2 id="screenSizes"></h2>
     <script>
         let screenSizes = document.querySelector("#screenSizes");
-        let body = document.querySelector("body");
-        let width = body.width;
-        let height = body.height;
+        let width = screen.width;
+        let height = screen.height;
         screenSizes.textContent = width + " x " + height;
     </script>
 </body>
